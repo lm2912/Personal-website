@@ -130,6 +130,7 @@ module.exports = function (config) {
   config.addPassthroughCopy('src/static');
   config.addPassthroughCopy('src/site.webmanifest');
   config.addPassthroughCopy('src/robots.txt');
+  config.addPassthroughCopy('src/CNAME');
   config.addPassthroughCopy('_redirects');
   // Copy all covers for posts to be used by og:image/twitter:image social tags
   config.addPassthroughCopy('src/posts/**/cover.jpg');
