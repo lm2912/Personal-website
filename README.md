@@ -62,7 +62,6 @@ Most important folders:
 │   ├── drafts - draft posts, them might never see the light of day
 │   │   └── trash - posts that DEFINITELY won't see the light of day
 │   ├── feed.njk - RSS feed
-│   ├── feed.python.njk - RSS of only "Python" posts feed
 │   ├── pages - various pages
 │   ├── posts - published posts sorted into yearly buckets with images stored next to the markdown text
 │   └── static - static images that will be copied with passthroughCopy (so without any modifications)

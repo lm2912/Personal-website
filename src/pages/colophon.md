@@ -6,7 +6,7 @@ permalink: /colophon/
 
 # Colophon
 
-This website was built using [11ty](https://www.11ty.dev/) and is hosted on [Netlify](https://www.netlify.com/). Code is stored in a GitHub [repository](https://github.com/lukemccrone/Personal-website).
+This website was built using [11ty](https://www.11ty.dev/) and is hosted on [Netlify](https://www.netlify.com/). Code is stored in a GitHub [repository](https://github.com/lm2912/Personal-website).
 
 11ty is a pretty barebones and unopinionated static site generator where you can choose your own templating language, CSS flavor, etc. I ended up choosing:
 

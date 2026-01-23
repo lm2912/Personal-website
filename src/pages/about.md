@@ -28,8 +28,6 @@ During winter, I go snowboarding. During summer, I do enduro biking and (recentl
 
 I like to travel, and I like to talk at conferences. I've had the pleasure to present at the following large conferences: EuroPython, PyCon Australia, PyCon India, PyCon Italia, PyCon Japan, PyCon Hong Kong, PyCon Sweden, PyCon Taiwan, PyCon US (remotely). Plus a lot of other, smaller conferences and meetups.
 
-I often tinker with my laptop's setup and optimize the way I work. I documented my favorite [CLI tools]({% postUrl "favorite-cli-tools" %}) and [Mac apps]({% postUrl "favorite-mac-tools" %}), although both posts need an update (they were written in 2020). I still need to write about new tools that I'm very happy with, like the Obsidian knowledge management app or an n8n.io instance that I'm using to automate various chores. If you want to learn about the tools I used to build this website or how I work, check out the [colophon](/colophon).
-
 ## How I work and what tools I use?
 
 <!-- TODO: Add a picture of my desk -->
