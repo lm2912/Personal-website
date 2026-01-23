@@ -55,6 +55,6 @@ I don't have a favorite band and my current listening habits constantly change. 
 ## Contact me
 
 Would you like to work with me, have me speak at your conference or just say "hi"?  
-Fill out this form or [drop me a line](mailto:sebastian@switowski.com).
+Fill out this form or [drop me a line](mailto:sebastian@lukemccrone.com).
 
 {% include "components/contactForm.njk" %}

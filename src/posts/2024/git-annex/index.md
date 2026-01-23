@@ -98,19 +98,19 @@ commit 430b796f2559a99b8a01f1a69ce55dfe3c50f75e
 Author: Sebastian Witowski <myemail@test.com>
 Date:   Sat Jan 20 20:54:35 2024 +0100
 
-    git-annex in switowski@smbp.home:~/workspace/test2/test-repo
+    git-annex in lukemccrone@smbp.home:~/workspace/test2/test-repo
 
 commit f44a6e40440cc083e3c15bf6f9b40ef2ee818e8f
 Author: Sebastian Witowski <myemail@test.com>
 Date:   Sat Jan 20 20:01:56 2024 +0100
 
-    git-annex in switowski@smbp.home:~/workspace/test2/test-repo
+    git-annex in lukemccrone@smbp.home:~/workspace/test2/test-repo
 
 commit 95090b5861a0afc9de20796c6a7c3bb7ea696649
 Author: Sebastian Witowski <myemail@test.com
 Date:   Sat Jan 20 20:00:34 2024 +0100
 
-    git-annex in switowski@smbp.home:~/workspace/test2/test-repo
+    git-annex in lukemccrone@smbp.home:~/workspace/test2/test-repo
 ...
 ```
 
@@ -286,12 +286,12 @@ git annex whereis
 whereis _assets/images/posts/2019-02-27-file1.jpg (3 copies)
     2a241183-7b15-433d-af55-ddecbe876408 -- [nas]
     c9501338-8824-4d32-82e9-4e9039590943 -- [gdrive]
-    debde584-293f-4bfc-a024-b28bdeb7a00d -- switowski@smbp.home:~/workspace/travel-blog [here]
+    debde584-293f-4bfc-a024-b28bdeb7a00d -- lukemccrone@smbp.home:~/workspace/travel-blog [here]
 ok
 whereis _assets/images/posts/2019-03-04-file2.jpg (3 copies)
     2a241183-7b15-433d-af55-ddecbe876408 -- [nas]
     c9501338-8824-4d32-82e9-4e9039590943 -- [gdrive]
-    debde584-293f-4bfc-a024-b28bdeb7a00d -- switowski@smbp.home:~/workspace/travel-blog [here]
+    debde584-293f-4bfc-a024-b28bdeb7a00d -- lukemccrone@smbp.home:~/workspace/travel-blog [here]
 ok
 ...
 ```

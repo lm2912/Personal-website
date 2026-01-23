@@ -91,7 +91,7 @@ $ pyenv versions
   2.7.18
   3.6.9
   3.8.3
-* 3.9.0 (set by /Users/switowski/.pyenv/version)
+* 3.9.0 (set by /Users/lukemccrone/.pyenv/version)
 ```
 
 `system` version is the one that comes with my operating system (by default, macOS comes with Python 2.7), and the rest of them were installed using pyenv.

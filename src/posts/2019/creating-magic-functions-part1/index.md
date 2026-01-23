@@ -86,7 +86,7 @@ def pn(line):
 
 And that's it. The `@register_line_magic` decorator turns our `pn` function into a `%pn` magic function. The `line` parameter contains whatever is passed to the magic function. If we call it in the following way: `%pn + 2 2`, `line` will contain `+ 2 2`.
 
-To make sure that IPython loads our magic function on startup, copy all the code that we just wrote (you can find the whole file [on GitHub](https://github.com/switowski/blog-resources/blob/master/ipython-magic-functions/magic_functions.py)) to a file inside IPython startup directory. You can read more about this directory in the [IPython startup files post]({% postUrl "ipython-startup-files" %}). In my case, I'm saving it in a file called:
+To make sure that IPython loads our magic function on startup, copy all the code that we just wrote (you can find the whole file [on GitHub](https://github.com/lukemccrone/blog-resources/blob/master/ipython-magic-functions/magic_functions.py)) to a file inside IPython startup directory. You can read more about this directory in the [IPython startup files post]({% postUrl "ipython-startup-files" %}). In my case, I'm saving it in a file called:
 
 ```shell
 ~/.ipython/profile_default/startup/magic_functions.py

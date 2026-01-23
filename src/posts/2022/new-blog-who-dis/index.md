@@ -50,14 +50,14 @@ Some problems I encountered were, for example, the not-so-helpful error messages
 [11ty]
 [11ty] Original error stack trace: Template render error: (./src/drafts/write-faster-python/2020-10-24-pypy-vs-cpython.md)
 [11ty]   Error: template names must be a string: NaN
-[11ty]     at Object._prettifyError (/Users/switowski/workspace/portfolio2/node_modules/nunjucks/src/lib.js:36:11)
-[11ty]     at /Users/switowski/workspace/portfolio2/node_modules/nunjucks/src/environment.js:563:19
-[11ty]     at Template.root [as rootRenderFunc] (eval at _compile (/Users/switowski/workspace/portfolio2/node_modules/nunjucks/src/environment.js:633:18), <anonymous>:37:3)
-[11ty]     at Template.render (/Users/switowski/workspace/portfolio2/node_modules/nunjucks/src/environment.js:552:10)
-[11ty]     at /Users/switowski/workspace/portfolio2/node_modules/@11ty/eleventy/src/Engines/Nunjucks.js:485:14
+[11ty]     at Object._prettifyError (/Users/lukemccrone/workspace/portfolio2/node_modules/nunjucks/src/lib.js:36:11)
+[11ty]     at /Users/lukemccrone/workspace/portfolio2/node_modules/nunjucks/src/environment.js:563:19
+[11ty]     at Template.root [as rootRenderFunc] (eval at _compile (/Users/lukemccrone/workspace/portfolio2/node_modules/nunjucks/src/environment.js:633:18), <anonymous>:37:3)
+[11ty]     at Template.render (/Users/lukemccrone/workspace/portfolio2/node_modules/nunjucks/src/environment.js:552:10)
+[11ty]     at /Users/lukemccrone/workspace/portfolio2/node_modules/@11ty/eleventy/src/Engines/Nunjucks.js:485:14
 [11ty]     at new Promise (<anonymous>)
-[11ty]     at /Users/switowski/workspace/portfolio2/node_modules/@11ty/eleventy/src/Engines/Nunjucks.js:484:14
-[11ty]     at /Users/switowski/workspace/portfolio2/node_modules/@11ty/eleventy/src/Engines/Markdown.js:73:47
+[11ty]     at /Users/lukemccrone/workspace/portfolio2/node_modules/@11ty/eleventy/src/Engines/Nunjucks.js:484:14
+[11ty]     at /Users/lukemccrone/workspace/portfolio2/node_modules/@11ty/eleventy/src/Engines/Markdown.js:73:47
 [11ty]     at runMicrotasks (<anonymous>)
 [11ty]     at processTicksAndRejections (node:internal/process/task_queues:96:5)
 ```
@@ -102,7 +102,7 @@ I was a bit on the fence if I wanted to share the code. It's far from perfect, b
 
 On the other hand, there are not that many examples of fully developed 11ty websites. So every example helps. I'm grateful to people like [Max Böck](https://mxb.dev/), [Sia Karamalegos](https://sia.codes/), or [Zach Leatherman](https://www.zachleat.com/), who keep the code of their websites public. I took a lot of inspiration from them - how to organize the files, what are some good examples of filters or sensible defaults. 11ty starter projects are great to start with, but they are very basic in terms of showing you how to put together more content. Usually, they are just 1-3 pages, 1 layout, no macros/includes, 1 CSS file, etc. At the same time, they might come with a whole bunch of JS tools for the "most efficient assets pipeline." Of course, this is the "most efficient pipeline yet," because tomorrow, there will be a whole bunch of new JS tools released ;) I wanted to start simple and only add things when needed.
 
-In the end, I decided to be a good open-source citizen and made the code public. If you want to see how a Python developer writes JavaScript, click [here](https://github.com/switowski/portfolio).
+In the end, I decided to be a good open-source citizen and made the code public. If you want to see how a Python developer writes JavaScript, click [here](https://github.com/lukemccrone/Personal-website).
 
 ## What's next?
 

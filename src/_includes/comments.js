@@ -2,7 +2,7 @@ const theme = document.documentElement.getAttribute('data-theme');
 
 const giscusAttributes = {
   src: 'https://giscus.app/client.js',
-  'data-repo': 'switowski/switowski.com-comments',
+  'data-repo': 'lukemccrone/lukemccrone.com-comments',
   'data-repo-id': 'R_kgDOIMKu_A',
   'data-category': 'Announcements',
   'data-category-id': 'DIC_kwDOIMKu_M4CR62c',

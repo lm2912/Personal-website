@@ -1,6 +1,6 @@
-# switowski.com
+# lukemccrone.com
 
-This is the personal website of Sebastian Witowski ([switowski.com](https://switowski.com)).
+This is the personal website of Sebastian Witowski ([lukemccrone.com](https://lukemccrone.com)).
 
 It's built using [Eleventy](https://www.11ty.dev/), [TailwindCSS](https://tailwindcss.com/), and [Alpine.js](https://alpinejs.dev/).
 
@@ -9,18 +9,6 @@ It's built using [Eleventy](https://www.11ty.dev/), [TailwindCSS](https://tailwi
 I looked at a bunch of different blogs and 11ty starters until I came up with something I like. And by "something I like," I mean a simple bundling process. CSS is built using PostCSS (technically, the TailwindCLI with PostCSS plugins), JS is built using ESBuild, and they all take minimal configuration. If I need a more complex bundling process in the future, I will switch to something else, but for now, it's fine.
 
 This project is a constant work in progress, there will be unused files, unfinished features, etc. Yes, I've heard about version control. But I like to keep unused files because one day I **will** need them. This is my box of spare cables.
-
-## Thank you
-
-A **huge** thank you to the following people for publicly sharing the source code of their websites:
-
-* [Max Böck](https://mxb.dev/)
-* [Sia Karamalegos](https://sia.codes/)
-* [Zach Leatherman](https://www.zachleat.com/)
-
-11ty starters are great, and there are so many of them that it's easy to find a setup you like. But then you're on your own. They don't show you how to organize your website as it grows. Or how do you optimize images. Or how do you store posts together with their images. Or (insert 100 other things that you will probably run into...)
-
-On top of that, I don't build JavaScript websites on a daily basis, so I'm out of the loop on current trends, best libraries, build tool configurations, etc.
 
 ## License
 

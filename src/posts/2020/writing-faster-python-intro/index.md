@@ -97,7 +97,7 @@ def hello():
     return "Hello world!"
 ```
 
-You can find most of the code examples in my [blog-resources/writing-faster-python](https://github.com/switowski/blog-resources/tree/master/writing-faster-python) repository.
+You can find most of the code examples in my [blog-resources/writing-faster-python](https://github.com/lukemccrone/blog-resources/tree/master/writing-faster-python) repository.
 
 ## Frequently Asked Questions
 

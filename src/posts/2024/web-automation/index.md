@@ -33,7 +33,7 @@ Below is the code I wrote to interact with the TradingView website and perform a
   - Expire in seven days - if a parameter "t" (that stands for "trial") was given.
   - Expire on a specific day - in case a numeric value was provided as the last parameter. For example, if I passed the value "20240615", the access would expire on 2024.06.15.
 
-Warning - lots of ugly code incoming. But it works, so I never bothered refactoring it. You can also view the code on [GitHub](https://github.com/switowski/blog-resources/tree/master/web-automation).
+Warning - lots of ugly code incoming. But it works, so I never bothered refactoring it. You can also view the code on [GitHub](https://github.com/lukemccrone/blog-resources/tree/master/web-automation).
 
 ```python
 # api.py
@@ -369,7 +369,7 @@ version: "3"
 
 services:
   n8n:
-    image: registry.gitlab.com/switowski/myproject
+    image: registry.gitlab.com/lukemccrone/myproject
     restart: always
     ports:
       - '0.0.0.0:5678:5678'

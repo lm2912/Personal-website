@@ -116,7 +116,7 @@ In [2]: solve()
 IndexError: list index out of range
 
 In [3]: %debug
-> /Users/switowski/workspace/iac/solver.py(11)count_trees()
+> /Users/lukemccrone/workspace/iac/solver.py(11)count_trees()
       9         x = (x + dx) % mod
      10         y += dy
 ---> 11         if values[y][x] == "#":
@@ -139,7 +139,7 @@ In [2]: from solver import solve
 In [3]: solve()
 IndexError: list index out of range
 
-> /Users/switowski/workspace/iac/solver.py(11)count_trees()
+> /Users/lukemccrone/workspace/iac/solver.py(11)count_trees()
       9         x = (x + dx) % mod
      10         y += dy
 ---> 11         if values[y][x] == "#":
@@ -160,15 +160,15 @@ And if you want to start a debugger on every exception automatically, you can ru
 
 ```python
 In [1]: !pwd
-/Users/switowski/workspace/iac
+/Users/lukemccrone/workspace/iac
 
 In [2]: ls -al
 total 8
-drwxr-xr-x   5 switowski  staff   480 Dec 21 17:26 ./
-drwxr-xr-x  55 switowski  staff  1760 Dec 22 14:47 ../
-drwxr-xr-x   9 switowski  staff   384 Dec 21 17:27 .git/
-drwxr-xr-x   4 switowski  staff   160 Jan 25 11:39 __pycache__/
--rw-r--r--   1 switowski  staff   344 Dec 21 17:26 solver.py
+drwxr-xr-x   5 lukemccrone  staff   480 Dec 21 17:26 ./
+drwxr-xr-x  55 lukemccrone  staff  1760 Dec 22 14:47 ../
+drwxr-xr-x   9 lukemccrone  staff   384 Dec 21 17:27 .git/
+drwxr-xr-x   4 lukemccrone  staff   160 Jan 25 11:39 __pycache__/
+-rw-r--r--   1 lukemccrone  staff   344 Dec 21 17:26 solver.py
 
 # Node REPL inside IPython? Sure!
 In [3]: !node
@@ -189,13 +189,13 @@ I use it mostly to move between folders or to move files around. But you can do 
 
 ```python
 In [1]: !pwd
-/Users/switowski/workspace/iac/input_files/wrong/folder
+/Users/lukemccrone/workspace/iac/input_files/wrong/folder
 
 In [2]: %cd ../..
-/Users/switowski/workspace/iac/input_files
+/Users/lukemccrone/workspace/iac/input_files
 
 In [3]: %cd right_folder/
-/Users/switowski/workspace/iac/input_files/right_folder
+/Users/lukemccrone/workspace/iac/input_files/right_folder
 ```
 
 Alternatively, you can also move around the filesystem using the `%cd` magic command (press Tab to get the autocompletion for the list of available folders). It comes with some additional features - you can bookmark a folder or move a few folders back in the history (run `%cd?` to see the list of options).
@@ -232,11 +232,11 @@ By default, the amount of information in IPython's exceptions is just right - at
     Traceback (most recent call last):
     File "<ipython-input-6-6f300b4f5987>", line 1, in <module>
         solve()
-    File "/Users/switowski/workspace/iac/solver.py", line 27, in solve
+    File "/Users/lukemccrone/workspace/iac/solver.py", line 27, in solve
         sol_part1 = part1(vals)
-    File "/Users/switowski/workspace/iac/solver.py", line 16, in part1
+    File "/Users/lukemccrone/workspace/iac/solver.py", line 16, in part1
         return count_trees(vals, 3, 1)
-    File "/Users/switowski/workspace/iac/solver.py", line 11, in count_trees
+    File "/Users/lukemccrone/workspace/iac/solver.py", line 11, in count_trees
         if vals[y][x] == "#":
     IndexError: list index out of range
     ```

@@ -3,4 +3,4 @@
 User-agent: *
 Disallow: /drafts
 
-Sitemap: https://switowski.com/sitemap.xml
+Sitemap: https://lukemccrone.com/sitemap.xml

@@ -83,7 +83,7 @@ When talking about CI, you will often hear about these three terms:
 - **Stages** - these are collections of jobs. For example, you can have a "build" stage where you build Docker images that will be used later in the pipeline. Or you can have a "test" stage where you run tests, static analyses, and all the other tools that can detect if there is something wrong with your code. Often, when talking about continuous integration, another term you will hear about is **continuous delivery (CD)** - this means that if your pipeline is successful, your code is automatically deployed to a server. So, the last stage in our pipeline could be responsible for deploying the code to a "staging" or "production" server, provided that no issues were detected with our code in the earlier stages.
 - **Jobs** - these consist of one or more commands to be executed. A job can be as simple as running a `pytest` command. Usually, commands in a job are equivalent to shell commands. So, whatever you normally type in the terminal to build the docker image or run tests, the CI job does automatically for you.
 
-Now that we have a common understanding of the CI terms I will be using, let's build our first CI pipeline. For that, I will need some Python code on which I can run tests or static analysis tools. So, I've created a demo project that consists of a simple dice-rolling program: [https://gitlab.com/switowski/python-ci-101/-/tree/start](https://gitlab.com/switowski/python-ci-101/-/tree/start).
+Now that we have a common understanding of the CI terms I will be using, let's build our first CI pipeline. For that, I will need some Python code on which I can run tests or static analysis tools. So, I've created a demo project that consists of a simple dice-rolling program: [https://gitlab.com/lukemccrone/python-ci-101/-/tree/start](https://gitlab.com/lukemccrone/python-ci-101/-/tree/start).
 
 {% postImage "dice-roller.jpg", "A dice roller project" %}
 
@@ -284,7 +284,7 @@ line-length = 120
 max-line-length = 120
 ```
 
-If we add these two files to the repository, run black on our code, and [push all that](https://gitlab.com/switowski/python-ci-101/-/tree/fixed-pipeline) to our repository, we can see that the pipeline is now passing, and all jobs are green:
+If we add these two files to the repository, run black on our code, and [push all that](https://gitlab.com/lukemccrone/python-ci-101/-/tree/fixed-pipeline) to our repository, we can see that the pipeline is now passing, and all jobs are green:
 
 {% postImage "pipeline-passing.jpg", "GitLab CI pipeline passing" %}
 
@@ -344,7 +344,7 @@ Artifacts are one of the ways to share files between jobs. By default, every job
 
 In case you're wondering how I knew how to write all those lines in the `.gitlab-ci.yaml` file to display the test coverage - I just googled it. If you type "gitlab pytest coverage", the first result contains the documentation page from where you can copy all the code I used. Unless you work as a DevOps engineer and write CI configuration files all the time, your experience will probably be the same as mine - you will look up different things, apply them, and hope they will work. And quite often, they will. At least for GitLab, the documentation is pretty good, and all the code examples are usually up to date.
 
-That concludes our GitLab CI setup. You can find all the code in the [test-coverage](https://gitlab.com/switowski/python-ci-101/-/tree/test-coverage) branch on GitLab. You can take it and extend it with other tools you want to use in your project. Just keep in mind that with each new tool you add, your pipelines will get slower. You need to find a balance between having enough feedback from your tools so you detect most of the potential issues and having your pipelines finish in a reasonable amount of time. Sometimes, you can get away with a much simpler setup.
+That concludes our GitLab CI setup. You can find all the code in the [test-coverage](https://gitlab.com/lukemccrone/python-ci-101/-/tree/test-coverage) branch on GitLab. You can take it and extend it with other tools you want to use in your project. Just keep in mind that with each new tool you add, your pipelines will get slower. You need to find a balance between having enough feedback from your tools so you detect most of the potential issues and having your pipelines finish in a reasonable amount of time. Sometimes, you can get away with a much simpler setup.
 
 ## Do I always need CI?
 

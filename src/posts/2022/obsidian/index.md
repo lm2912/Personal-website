@@ -42,7 +42,7 @@ This issue probably affects less than 0.01% of users. But what if this happens t
 Following [this](https://medium.com/analytics-vidhya/how-i-put-my-mind-under-version-control-24caea37b8a5) tutorial, I solved the problem by setting up a cronjob to backup my vault to GitHub every hour:
 
 1. Create a git repository inside your vault and link it to a private repository on GitHub.
-2. Add a bash script that checks for changes and, if there are any, creates a new commit with the current timestamp and pushes it to GitHub. Here is the [source code](https://github.com/switowski/dotfiles/blob/master/scripts/backupObsidian.sh).
+2. Add a bash script that checks for changes and, if there are any, creates a new commit with the current timestamp and pushes it to GitHub. Here is the [source code](https://github.com/lukemccrone/dotfiles/blob/master/scripts/backupObsidian.sh).
 3. Add a cronjob to execute the bash script every hour (or often if you want).
 
 Thanks to the above procedure, all my notes are backed up every hour. Of course, this doesn't solve the problem of backing up notes from the mobile. But this is a risk I can live with because I mostly use my phone to read my notes, not to edit them.

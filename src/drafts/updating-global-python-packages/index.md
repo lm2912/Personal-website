@@ -52,8 +52,8 @@ Global packages installed with pipx handle the change of the Python version very
 
 ```bash
 $ pipx list
-venvs are in /Users/switowski/.local/pipx/venvs
-apps are exposed on your $PATH at /Users/switowski/.local/bin
+venvs are in /Users/lukemccrone/.local/pipx/venvs
+apps are exposed on your $PATH at /Users/lukemccrone/.local/bin
    package black 20.8b1, Python 3.8.6
     - black
     - black-primer

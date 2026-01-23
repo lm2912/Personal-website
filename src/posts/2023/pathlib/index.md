@@ -313,7 +313,7 @@ The list of various tasks we can perform with `pathlib` can go on for much longe
 
 It's nice to finally have a single module with all the functionality related to paths and files. And I love this object-oriented approach to file paths. It makes writing scripts for filesystem manipulation much more fun, making Python an even better replacement for bash scripts[^1].
 
-You can find all the code examples from this article in my [blog-resources](https://github.com/switowski/blog-resources/tree/master/writing-faster-python) repository.
+You can find all the code examples from this article in my [blog-resources](https://github.com/lukemccrone/blog-resources/tree/master/writing-faster-python) repository.
 
 ## Further reading
 

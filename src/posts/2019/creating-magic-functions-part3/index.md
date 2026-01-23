@@ -156,7 +156,7 @@ Finally, I decided to peak inside the `%history` and use whatever that function 
 
 ## Testing time
 
-Now, that our `%mypy` helper is done (the whole file is [available on GitHub](https://github.com/switowski/blog-resources/blob/master/ipython-magic-functions/magic_functions3.py)) and saved in the IPython [startup directory]({% postUrl "ipython-startup-files" %}), let's test it:
+Now, that our `%mypy` helper is done (the whole file is [available on GitHub](https://github.com/lukemccrone/blog-resources/blob/master/ipython-magic-functions/magic_functions3.py)) and saved in the IPython [startup directory]({% postUrl "ipython-startup-files" %}), let's test it:
 
 ```python
 In [1]: def greet(name: str) -> str:

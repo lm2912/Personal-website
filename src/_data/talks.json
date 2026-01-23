@@ -7,7 +7,7 @@
     "description": "In 2020, I built my first side project. I 'scratched my own itch' and started selling it, and since then, the project has earned me over $15,000. However, just a few months after its release, I was so overwhelmed by maintenance work that I considered shutting it down. Instead of killing the goose that lays (small) golden eggs, I decided to automate the project.",
     "img": "2025-automating-myself-out",
     "duration": "PT30M",
-    "slides": "https://speakerdeck.com/switowski/automating-myself-out-of-an-unloved-project-with-python-n8n-and-telegram",
+    "slides": "https://speakerdeck.com/lukemccrone/automating-myself-out-of-an-unloved-project-with-python-n8n-and-telegram",
     "conferences": ["EuroPython 2025"]
   },
   {
@@ -18,7 +18,7 @@
     "description": "Take your Continuous Integration to the next level! Learn how to optimize your pipelines for faster and more efficient builds by making things start faster (caching, smaller containers), finish faster (failing early, splitting tests), and making more things run at the same time (parallelization).",
     "img": "optimizing-CI",
     "duration": "PT30M",
-    "slides": "https://speakerdeck.com/switowski/optimizing-your-ci-pipelines",
+    "slides": "https://speakerdeck.com/lukemccrone/optimizing-your-ci-pipelines",
     "conferences": ["EuroPython 2023", "PyCon Italia 2023", "PyConPL 2023"]
   },
   {
@@ -29,7 +29,7 @@
     "description": "Streamline your Python development process with Continuous Integration. From choosing the right CI tool to implementing it in your project, this presentation will cover all the basics and best practices of CI, leaving you with a working setup that you can reuse in the future.",
     "img": "CI-101",
     "duration": "PT30M",
-    "slides": "https://speakerdeck.com/switowski/ci-101",
+    "slides": "https://speakerdeck.com/lukemccrone/ci-101",
     "conferences": ["PyConPL 2023"]
   },
   {
@@ -65,7 +65,7 @@
     "date": "2021-07-31",
     "description": "Every year thousands of developers try to solve the programming puzzles of the Advent of Code challenge. For many Pythonistas, their favorite tool to do that is the Jupyter notebook. Here are some cool tricks that can help you next time.",
     "img": "9-jupyter-tricks",
-    "notebook": "https://github.com/switowski/9-tricks-for-aoc/blob/main/9%20Tricks%20for%20Advent%20of%20Code.ipynb",
+    "notebook": "https://github.com/lukemccrone/9-tricks-for-aoc/blob/main/9%20Tricks%20for%20Advent%20of%20Code.ipynb",
     "duration": "PT8M",
     "conferences": ["PyOhio 2021", "PyCon 2021"]
   },
@@ -91,7 +91,7 @@
     "date": "2020-04-29",
     "description": "This is a tutorial for PyCon 2020 that I wish someone gave to me when I first learned Python.<br>Python is (relatively) easy and fun to learn, but there is a gap between \"knowing how to write Python code\" and \"knowing the tools and good practices when writing Python code\". This tutorial will try to bridge this gap. It's intended for beginners who know Python, but who are not sure how to write a Python project from scratch.",
     "img": "modern-python-dev",
-    "materials": "https://pycon.switowski.com/",
+    "materials": "https://pycon.lukemccrone.com/",
     "duration": "PT2H24M",
     "conferences": ["PyCon 2020"]
   },
@@ -101,7 +101,7 @@
     "date": "2019-09-15",
     "description": "What will happen with Python 2 in 2020?<br>What are the risks of staying on the unsupported version?<br>What are the possible solutions (and their pros and cons)?<br>How to go through the migration process in a least painful way?",
     "img": "python2-in-2019",
-    "slides": "https://switowski.com/blog/it-is-2019-and-i-am-still-using-python2",
+    "slides": "https://lukemccrone.com/blog/it-is-2019-and-i-am-still-using-python2",
     "duration": "PT49M",
     "conferences": ["PyCon Japan 2020"]
   },
@@ -112,7 +112,7 @@
     "description": "A fast-paced, feature-packed overview of IPython REPL. You will learn about ?? prefix, magic functions (and how to write one), extensions, profiles, how to use it for debugging or profiling. We will install a custom kernel and run shell commands. Great fun for beginners and advanced Pythonistas!",
     "img": "ipython",
     "duration": "PT42M",
-    "slides": "https://switowski.com/blog/wait-ipython-can-do-that",
+    "slides": "https://lukemccrone.com/blog/wait-ipython-can-do-that",
     "conferences": ["PiterPy 2020", "PyCon Taiwan 2019", "EuroPython 2019"]
   },
   {
@@ -121,7 +121,7 @@
     "date": "2018-07-25",
     "description": "Lightning talk from EuroPython 2018 on dotfiles, swapping keys, text expanders, IPython config, and more.",
     "img": "productivity-for-developers",
-    "slides": "https://switowski.gitlab.io/productivity-for-developers/",
+    "slides": "https://lukemccrone.gitlab.io/productivity-for-developers/",
     "duration": "PT5M",
     "conferences": ["PyCon Taiwan 2019", "EuroPython 2018"]
   },
@@ -132,7 +132,7 @@
     "description": "Tools and services that you can use when launching your website (with an emphasis on cheap/free and reliable).",
     "img": "i-made-a-website",
     "duration": "PT28M",
-    "slides": "https://switowski.gitlab.io/cern-developers-forum-4/"
+    "slides": "https://lukemccrone.gitlab.io/cern-developers-forum-4/"
   },
   {
     "url": "https://cds.cern.ch/record/2252604",
@@ -141,7 +141,7 @@
     "description": "How can we make writing CSS easier with visual regression tests and functional CSS?",
     "img": "maintainable-css",
     "duration": "PT25M",
-    "slides": "https://switowski.github.io/functional-css-talk/"
+    "slides": "https://lukemccrone.github.io/functional-css-talk/"
   },
   {
     "url": "https://www.youtube.com/watch?v=YjHsOrOOSuI",
@@ -151,6 +151,6 @@
     "img": "europython_2016",
     "duration": "PT25M",
     "conferences": ["EuroPython 2016", "IT Weekend Ukraine 2016"],
-    "slides": "http://switowski.github.io/europython2016/"
+    "slides": "http://lukemccrone.github.io/europython2016/"
   }
 ]

@@ -43,7 +43,7 @@ The examples in this article are intentionally iterating over a list so I can co
 * using the [math.lcm()](https://docs.python.org/3/library/math.html#math.lcm) function directly: `math.lcm(42, 43)` (Python 3.9 and above)
 * dividing their product by their greatest common divisor: `42 * 43 // math.gcd(42, 43)` (Python 3.5 and above)
 
-Both versions will be an order of magnitude faster than my silly examples. Thanks to Dmitry for [pointing this out](https://github.com/switowski/writing-faster-python3/issues/2)!
+Both versions will be an order of magnitude faster than my silly examples. Thanks to Dmitry for [pointing this out](https://github.com/lukemccrone/writing-faster-python3/issues/2)!
 :::
 
 ## Find a number in a list

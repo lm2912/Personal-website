@@ -18,7 +18,7 @@ Once you run those two commands, they will end up in the `.gitconfig` file in yo
 
 As with every tool, it's worth spending some time to figure out how you can configure it. You will learn about some features that you probably didn't know existed, and you will be able to configure that tool to work in a way you like the most.
 
-So, let's take a look at what you might find in a `.gitconfig` file. And if you like something, feel free to copy the code (you can find my `.gitconfig` file [here](https://github.com/switowski/dotfiles/blob/master/git/.gitconfig.symlink)).
+So, let's take a look at what you might find in a `.gitconfig` file. And if you like something, feel free to copy the code (you can find my `.gitconfig` file [here](https://github.com/lukemccrone/dotfiles/blob/master/git/.gitconfig.symlink)).
 
 ## [alias]
 

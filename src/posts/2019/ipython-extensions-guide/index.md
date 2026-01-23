@@ -86,7 +86,7 @@ In [3]: %lprun -f a_function -f b_function crunch_numbers()
 Timer unit: 1e-06 s
 
 Total time: 0.000503 s
-File: /Users/switowski/workspace/slow_module.py
+File: /Users/lukemccrone/workspace/slow_module.py
 Function: a_function at line 9
 
 Line #      Hits         Time  Per Hit   % Time  Line Contents
@@ -95,7 +95,7 @@ Line #      Hits         Time  Per Hit   % Time  Line Contents
     10      1000        503.0      0.5    100.0      return number * number
 
 Total time: 0.698784 s
-File: /Users/switowski/workspace/slow_module.py
+File: /Users/lukemccrone/workspace/slow_module.py
 Function: b_function at line 13
 
 Line #      Hits         Time  Per Hit   % Time  Line Contents
@@ -193,8 +193,8 @@ And here is what's inside each of the files:
         packages=["ipython_reverser"],
         license="MIT",
         author="Sebastian Witowski",
-        author_email="sebastian@switowski.com",
-        url="http://www.github.com/switowski/ipython-reverser",
+        author_email="sebastian@lukemccrone.com",
+        url="http://www.github.com/lukemccrone/ipython-reverser",
         description="IPython magic to reverse a string",
         long_description=open("README.rst").read(),
         keywords="ipython reverser reverse",
@@ -223,7 +223,7 @@ And here is what's inside each of the files:
             return line[::-1]
     ```
 
-You can find the source code of the package on [GitHub](https://github.com/switowski/ipython-reverser).
+You can find the source code of the package on [GitHub](https://github.com/lukemccrone/ipython-reverser).
 
 ### Generating the package
 

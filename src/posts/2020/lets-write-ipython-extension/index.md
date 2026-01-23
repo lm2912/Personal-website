@@ -507,7 +507,7 @@ In [5]: d
 Out[5]: 4
 ```
 
-[Here is the complete code](https://gist.github.com/switowski/301320fb6388822a76644461219e4386) from this article.
+[Here is the complete code](https://gist.github.com/lukemccrone/301320fb6388822a76644461219e4386) from this article.
 
 ## Conclusions
 

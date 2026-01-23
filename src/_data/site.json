@@ -3,11 +3,11 @@
   "description": "Sebastian Witowski - Python freelancer, consultant, and trainer.",
   "lang": "en",
   "locale": "en_US",
-  "domain": "switowski.com",
-  "url": "https://switowski.com",
+  "domain": "lukemccrone.com",
+  "url": "https://lukemccrone.com",
   "author": {
     "name": "Sebastian Witowski",
-    "email": "sebastian@switowski.com",
+    "email": "sebastian@lukemccrone.com",
     "image": "/static/images/me.jpg"
   },
   "social": {
@@ -16,8 +16,8 @@
       "url": "https://twitter.com/SebaWitowski"
     },
     "linkedin": {
-      "username": "switowski",
-      "url": "https://www.linkedin.com/in/switowski/"
+      "username": "lukemccrone",
+      "url": "https://www.linkedin.com/in/lukemccrone/"
     }
   }
 }

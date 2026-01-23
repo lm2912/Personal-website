@@ -249,11 +249,11 @@ do
     for v in ${PYENV_VERSIONS[@]}
     do
         OUTPUT+=","
-        OUTPUT+=$(eval "/Users/switowski/.pyenv/versions/$v/bin/python -m timeit ${COMMANDS[$i]}" | sed -e 's/.*: \(.*\) per loop/\1/')
+        OUTPUT+=$(eval "/Users/lukemccrone/.pyenv/versions/$v/bin/python -m timeit ${COMMANDS[$i]}" | sed -e 's/.*: \(.*\) per loop/\1/')
     done
     # Divide timings for the first and last Python version and add it in the last column
-    v1=$(eval "/Users/switowski/.pyenv/versions/${PYENV_VERSIONS[0]}/bin/python -m timeit ${COMMANDS[$i]}" | sed -e 's/.*: \(.*\) per loop/\1/' -e 's/[^0-9\.]//g')
-    v2=$(eval "/Users/switowski/.pyenv/versions/${PYENV_VERSIONS[${#PYENV_VERSIONS[@]}-1]}/bin/python -m timeit ${COMMANDS[$i]}" | sed -e 's/.*: \(.*\) per loop/\1/' -e 's/[^0-9\.]//g')
+    v1=$(eval "/Users/lukemccrone/.pyenv/versions/${PYENV_VERSIONS[0]}/bin/python -m timeit ${COMMANDS[$i]}" | sed -e 's/.*: \(.*\) per loop/\1/' -e 's/[^0-9\.]//g')
+    v2=$(eval "/Users/lukemccrone/.pyenv/versions/${PYENV_VERSIONS[${#PYENV_VERSIONS[@]}-1]}/bin/python -m timeit ${COMMANDS[$i]}" | sed -e 's/.*: \(.*\) per loop/\1/' -e 's/[^0-9\.]//g')
     difference=$(echo "scale=2; $v1 / $v2" | bc)
     OUTPUT+=",$difference"
 
@@ -266,13 +266,13 @@ printf "$OUTPUT" | column -ts,
 
 {% endraw %}
 
-I've put all the code examples together with the benchmark script and the results in [this repository](https://github.com/switowski/blog-resources/tree/master/writing-faster-python/benchmarks). The actual benchmark script has one more version, in case you don't care about the table, but the raw output from the timeit functions.
+I've put all the code examples together with the benchmark script and the results in [this repository](https://github.com/lukemccrone/blog-resources/tree/master/writing-faster-python/benchmarks). The actual benchmark script has one more version, in case you don't care about the table, but the raw output from the timeit functions.
 
 ## Results
 
 Let's see the results. The lower the number, the faster a given code example runs. In the last column, we can see the comparison of how long it takes to run the code in Python 3.7 vs. Python 3.11. "1.68" means this example runs 68% slower in Python 3.7.
 
-I did a bit of cleanup by moving the units next to the function name (instead of next to each number as in the [original output](https://github.com/switowski/blog-resources/blob/master/writing-faster-python/benchmarks/results.txt)).
+I did a bit of cleanup by moving the units next to the function name (instead of next to each number as in the [original output](https://github.com/lukemccrone/blog-resources/blob/master/writing-faster-python/benchmarks/results.txt)).
 
 | Function                    | 3.7.14 | 3.8.14 | 3.9.14 | 3.10.7 | 3.11.0 | 3.7/3.11 |
 |-----------------------------|--------|--------|--------|--------|--------|--------------:|
@@ -347,7 +347,7 @@ def for_loop_with_try_except():
 
 With zero cost exceptions handling, Python 3.11 should run those code examples faster than Python 3.10 or 3.9.
 
-Let's see the results by running the [exceptions_benchmark.sh](https://github.com/switowski/blog-resources/blob/master/writing-faster-python/benchmarks/exceptions_benchmark.sh) script:
+Let's see the results by running the [exceptions_benchmark.sh](https://github.com/lukemccrone/blog-resources/blob/master/writing-faster-python/benchmarks/exceptions_benchmark.sh) script:
 
 | Function      | 3.9.14      | 3.10.7      | 3.11.0      |
 |---------------|:-----------:|:-----------:|:-----------:|
