@@ -8,7 +8,7 @@ eleventyNavigation:
 
 # About
 
-My name is Sebastian Witowski and I'm an independent Python consultant, freelancer, and international speaker based in Poland.
+My name is Luke McCrone and I'm an independent Python consultant, freelancer, and international speaker based in Poland.
 
 {% image '_assets/images/me-talking-ep2022.jpg', 'Me speaking at EuroPython 2022 conference', '', 'rounded-3xl md:w-1/2 w-full mx-auto' %}
 
@@ -55,6 +55,6 @@ I don't have a favorite band and my current listening habits constantly change. 
 ## Contact me
 
 Would you like to work with me, have me speak at your conference or just say "hi"?  
-Fill out this form or [drop me a line](mailto:sebastian@lukemccrone.com).
+Fill out this form or [drop me a line](mailto:luke.mccrone@imperial.ac.uk).
 
 {% include "components/contactForm.njk" %}

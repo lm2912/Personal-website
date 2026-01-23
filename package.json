@@ -1,7 +1,7 @@
 {
   "name": "lukemccrone",
   "version": "1.0.0",
-  "description": "Personal website of Sebastian Witowski.",
+  "description": "Personal website of Luke McCrone.",
   "scripts": {
     "build": "cross-env NODE_ENV=production npm-run-all -p build:*",
     "rebuild": "cross-env NODE_ENV=production npm-run-all clean -p build:*",
@@ -27,7 +27,7 @@
     "eleventy",
     "alpine"
   ],
-  "author": "Sebastian Witowski",
+  "author": "Luke McCrone",
   "license": "CC-BY-NC-SA-4.0",
   "homepage": "https://lukemccrone.com",
   "dependencies": {

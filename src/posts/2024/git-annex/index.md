@@ -95,19 +95,19 @@ Even though using the git-annex assistant to watch and automatically commit all 
 
 ```shell
 commit 430b796f2559a99b8a01f1a69ce55dfe3c50f75e
-Author: Sebastian Witowski <myemail@test.com>
+Author: Luke McCrone <myemail@test.com>
 Date:   Sat Jan 20 20:54:35 2024 +0100
 
     git-annex in lukemccrone@smbp.home:~/workspace/test2/test-repo
 
 commit f44a6e40440cc083e3c15bf6f9b40ef2ee818e8f
-Author: Sebastian Witowski <myemail@test.com>
+Author: Luke McCrone <myemail@test.com>
 Date:   Sat Jan 20 20:01:56 2024 +0100
 
     git-annex in lukemccrone@smbp.home:~/workspace/test2/test-repo
 
 commit 95090b5861a0afc9de20796c6a7c3bb7ea696649
-Author: Sebastian Witowski <myemail@test.com
+Author: Luke McCrone <myemail@test.com
 Date:   Sat Jan 20 20:00:34 2024 +0100
 
     git-annex in lukemccrone@smbp.home:~/workspace/test2/test-repo

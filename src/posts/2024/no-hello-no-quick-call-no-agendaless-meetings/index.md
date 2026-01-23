@@ -9,7 +9,7 @@ Hi,
 
 You probably received a link to this website because you did one of the common mistakes of working remotely:
 
-- You started a conversation by writing "Hi", or  "Hello", or even maybe "Good morning Sebastian, I have a question". And then you waited. And waited. And waited for minutes (or hours if I was busy and you were patient) without a single word explaining what problem you were facing.
+- You started a conversation by writing "Hi", or  "Hello", or even maybe "Good morning Luke, I have a question". And then you waited. And waited. And waited for minutes (or hours if I was busy and you were patient) without a single word explaining what problem you were facing.
 - You asked me for a "quick call" (or maybe just a "call") without explaining what you wanted to talk about in the hope that I would drop everything and jump right into helping you.
 - You invited me to a meeting without a description or an agenda.
 

@@ -1,6 +1,6 @@
 # lukemccrone.com
 
-This is the personal website of Sebastian Witowski ([lukemccrone.com](https://lukemccrone.com)).
+This is the personal website of Luke McCrone ([lukemccrone.com](https://lukemccrone.com)).
 
 It's built using [Eleventy](https://www.11ty.dev/), [TailwindCSS](https://tailwindcss.com/), and [Alpine.js](https://alpinejs.dev/).
 
@@ -14,7 +14,7 @@ This project is a constant work in progress, there will be unused files, unfinis
 
 This is my personal website. I've made the code public as a learning resources following the good example of people listed above (and for the reasons outlined above). You can look at how I implemented things and copy small pieces under the [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. You are not permitted to copy the whole/majority of this code.
 
-The content of the website is © Sebastian Witowski.
+The content of the website is © Luke McCrone.
 
 ----
 

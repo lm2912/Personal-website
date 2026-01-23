@@ -1,19 +1,19 @@
 {
-  "title": "Sebastian Witowski",
-  "description": "Sebastian Witowski - Python freelancer, consultant, and trainer.",
+  "title": "Luke McCrone",
+  "description": "Luke McCrone - Legend, legend, and legend.",
   "lang": "en",
-  "locale": "en_US",
+  "locale": "en_GB",
   "domain": "lukemccrone.com",
   "url": "https://lukemccrone.com",
   "author": {
-    "name": "Sebastian Witowski",
-    "email": "sebastian@lukemccrone.com",
+    "name": "Luke McCrone",
+    "email": "luke.mccrone@imperial.ac.uk",
     "image": "/static/images/me.jpg"
   },
   "social": {
     "twitter": {
-      "username": "SebaWitowski",
-      "url": "https://twitter.com/SebaWitowski"
+      "username": "drlukemccrone",
+      "url": "https://twitter.com/drlukemccrone"
     },
     "linkedin": {
       "username": "lukemccrone",
