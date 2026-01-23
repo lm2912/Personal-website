@@ -1,6 +1,5 @@
 # www.robotstxt.org
 
 User-agent: *
-Disallow: /drafts
 
 Sitemap: https://lukemccrone.com/sitemap.xml

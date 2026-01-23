@@ -28,11 +28,6 @@ module.exports = function (config) {
   // Global data
   config.addGlobalData('NODE_ENV', process.env.NODE_ENV);
 
-  // Don't process drafts in production
-  if (process.env.NODE_ENV === 'production') {
-    config.ignores.add('src/drafts/**/*.md');
-  }
-
   // Plugins
   config.addPlugin(pluginNavigation);
   config.addPlugin(syntaxHighlight, {
@@ -106,10 +101,6 @@ module.exports = function (config) {
   config.addCollection('posts', function (collectionApi) {
     return collectionApi.getFilteredByGlob('src/posts/**/*.md').filter(helpers.isLivePost);
   });
-  // // Collections: Drafts
-  // config.addCollection('drafts', function (collectionApi) {
-  //   return collectionApi.getFilteredByGlob('src/drafts/**/*.md');
-  // });
   // Collections: Tags
   config.addCollection('tags', function (collectionApi) {
     let tagSet = new Set();

@@ -59,8 +59,6 @@ Most important folders:
 │   ├── _includes - components, layouts, headers, footers, basically all nunjucks files go here
 │   │   ├── components - reusable components (newsletter sign up form, post card template, etc.)
 │   │   ├── layouts
-│   ├── drafts - draft posts, them might never see the light of day
-│   │   └── trash - posts that DEFINITELY won't see the light of day
 │   ├── feed.njk - RSS feed
 │   ├── pages - various pages
 │   ├── posts - published posts sorted into yearly buckets with images stored next to the markdown text
