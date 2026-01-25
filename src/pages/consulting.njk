@@ -105,8 +105,6 @@ eleventyNavigation:
   </div>
 </div>
 
-{# TODO: Add netlify "are you a robot" check #}
-{# TODO: Align colors of buttons and forms with other forms (e.g. newsletter) once I settle on the primary color theme #}
 <div class="container">
   <h2 class="mb-4">Contact me</h2>
   <p class="mb-6">Contacting me won't cost you anything, and I will always get back to you. If we agree that I could help you, we can schedule a chat. And if I can't be of any assistance, I know many professionals with different skill sets and could recommend someone to you.</p>
@@ -114,5 +112,5 @@ eleventyNavigation:
   {% set form = {
     'name': true
   } %}
-  {% include "components/contactForm.njk" %}
+  {% include "components/contact.njk" %}
 </div>

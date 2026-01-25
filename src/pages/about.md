@@ -55,4 +55,4 @@ I don't have a favorite band and my current listening habits constantly change. 
 Would you like to work with me, have me speak at your conference or just say "hi"?  
 Fill out this form or [drop me a line](mailto:luke.mccrone@imperial.ac.uk).
 
-{% include "components/contactForm.njk" %}
+{% include "components/contact.njk" %}

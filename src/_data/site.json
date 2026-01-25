@@ -1,6 +1,6 @@
 {
   "title": "Luke McCrone",
-  "description": "Luke McCrone - Legend, legend, and legend.",
+  "description": "Luke McCrone - Education researcher, academic, consultant.",
   "lang": "en",
   "locale": "en_GB",
   "domain": "lukemccrone.com",
@@ -8,7 +8,7 @@
   "author": {
     "name": "Luke McCrone",
     "email": "luke.mccrone@imperial.ac.uk",
-    "image": "/static/images/me.jpeg"
+    "image": "/static/images/me.png"
   },
   "social": {
     "twitter": {
