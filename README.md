@@ -6,6 +6,13 @@ It's built using [Eleventy](https://www.11ty.dev/), [TailwindCSS](https://tailwi
 
 The theme was forked from https://github.com/switowski/portfolio.
 
+TODO:
+- [ ] Update /about page.
+- [ ] Add Microsoft Bookings, with link https://outlook.office365.com/book/YourBookingPage
+- [ ] Add talks to talks.json, with cover images
+- [ ] Start blogging
+- [ ] Update /consulting page with details about offering
+
 ----
 
 ## File structure
