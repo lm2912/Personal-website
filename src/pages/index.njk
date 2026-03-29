@@ -29,16 +29,25 @@ eleventyNavigation:
   </div>
 </div>
 
-<div class="container">
-  {# Recent posts #}
+ <div class="md:my-12 my-10">
+    <h2 class="text-3xl font-bold leading-normal mb-4">The Challenge</h2>
+    <p>
+      Universities are evolving to meet the demands of a rapidly changing world. From digital transformation to new teaching models, creating inclusive, engaging, and effective learning environments has never been more critical.
+    </p>
+  </div>
+
   <div class="md:my-12 my-10">
-    <h2 class="mb-8">Latest posts</h2>
-    {% asyncEach post in collections.posts | reverse | limit(4) %}
-    {% include "components/postBrief.njk" %}
-    {% endeach %}
-    <div class="text-right">
-      <a class="" href="/blog">See all posts →</a>
-    </div>
+    <h2 class="text-3xl font-bold leading-normal mb-4">My Role</h2>
+    <p>
+      As a Research Associate in the Centre for Higher Education Research and Scholarship at Imperial College London, I work with colleagues and university leaders to understand how learning spaces and student communities shape engagement, belonging, and academic outcomes.
+    </p>
+  </div>
+
+  <div class="md:my-12 my-10">
+    <h2 class="text-3xl font-bold leading-normal mb-4">How I Can Help</h2>
+    <p>
+      I provide evidence-based guidance on designing and evaluating learning spaces, developing strategies for student engagement, and translating research into actionable insights that improve the student experience.
+    </p>
   </div>
 
 {# Contact me #}
