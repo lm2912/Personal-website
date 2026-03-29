@@ -43,24 +43,3 @@ eleventyNavigation:
 
 {# Contact me #}
 {%- include "components/contact.njk" -%}
-
-<div class="alternatebg py-8">
-  <div class="container">
-    {# Talks #}
-    <div>
-      <h2>Publications</h2>
-      <p class="mt-2 mb-12">
-      Here are some of the talks I have presented over time.<br>
-      </p>
-
-      {% asyncEach talk in talks | filterAttr('featured', true) %}
-      {% include "components/talkBrief.njk" %}
-      {% endeach %}
-
-      <div class="text-right">
-        <a class="" href="/talks">See all my talks →</a>
-      </div>
-
-    </div>
-  </div>
-</div>
