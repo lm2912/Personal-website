@@ -20,7 +20,6 @@ When I don't work, I enjoy keeping active with running and playing basketball. I
 
 ## Contact me
 
-Would you like to work with me, or just want to reach out to say hello. 
-[Drop me a line](mailto:luke.mccrone@imperial.ac.uk).
+If you would you like to work with me, or just want to reach out to say hello, [drop me a line](mailto:luke.mccrone@imperial.ac.uk).
 
 {% include "components/contact.njk" %}
