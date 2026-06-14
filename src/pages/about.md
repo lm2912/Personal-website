@@ -16,10 +16,10 @@ I convened the inaugural Imperial Learning Space Symposium (2025) and am interes
 
 ## After work
 
-When I don't work, I enjoy keeping active with running and playing basketball. I also love travelling. 
+When I don't work, I enjoy keeping active with running, Bachata dancing and playing basketball. I have always loved travelling and immersing myself in different cultures. 
 
 ## Contact me
 
-If you would you like to work with me, or just want to reach out to say hello, [drop me a line](mailto:luke.mccrone@imperial.ac.uk).
+If you would you like to collaborate with me, or are interested in any of my work, please [send me an email](mailto:luke.mccrone@imperial.ac.uk).
 
 {% include "components/contact.njk" %}
