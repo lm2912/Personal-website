@@ -8,9 +8,9 @@ eleventyNavigation:
 
 # About
 
-My name is Luke McCrone and I am an Education Researcher at Imperial College London. My work focuses on the student experience, and is shaped by both my research and my previous leadership roles within the university, including Deputy President (Education) at Imperial College Union, Graduate Students’ Union President, and currently as Hall Warden. 
+Hello, I'm Luke, and I am an Education Researcher at Imperial College London. My work is shaped by both my current research and my previous leadership roles within the university, including as Deputy President (Education) at Imperial College Union, Graduate Students’ Union President, and currently as a Hall Warden at Wilson House. 
 
-I work closely at the intersection of research and practice. I have contributed to the design and evaluation of learning spaces across Imperial, including the £1 million transformation of Blackett Lecture Theatre 2 in the Physics Department, and have partnered with staff and students to redesign a series of transitional learning spaces across campus through the StudentShapers scheme. 
+I work closely at the intersection of research and practice, and have contributed to the design and evaluation of learning spaces across Imperial, including a flagship £1 million transformation of a Lecture Theatre in the Physics Department. I have also partnered with staff and students to redesign a series of transitional learning spaces across campus through the StudentShapers scheme. 
 
 I convened the inaugural Imperial Learning Space Symposium (2025) and am interested in developing a wider community of research and practice in this area. Alongside this, my current work on the Social Ties and Student Lives Project explores how campus environments shape student sense of belonging and social capital.
 
